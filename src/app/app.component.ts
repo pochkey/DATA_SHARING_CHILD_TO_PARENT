@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DATA_SHARING_CHILD_TO_PARENT';
+
+  tocatchchildvalue(event : any){
+    this.title = event;
+
+  }
 }
